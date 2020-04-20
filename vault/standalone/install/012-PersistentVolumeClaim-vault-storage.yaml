@@ -12,4 +12,7 @@ spec:
   - ReadWriteOnce
   resources:
     requests:
-      storage: 10Gi             
+      storage: 10Gi
+  selector:
+   matchLabels:
+    app: vault
